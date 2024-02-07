@@ -19,10 +19,10 @@ const App = () => {
         token: { colorBgContainer, borderRadiusLG },
     } = theme.useToken();
     return (
-        <Layout style={{height:"100vh"}}>
+        <Layout style={{height:"100vh", background:"success"}}>
             <Sider trigger={null} collapsible collapsed={collapsed}>
                 <div className="demo-logo-vertical text-center text-white" >
-                    <h2 >Logoses</h2>
+                    <h2 >Logo</h2>
                 </div>
                 <Menu
                     theme="dark"
