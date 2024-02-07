@@ -8,6 +8,7 @@ import { MenuFoldOutlined,
 import { Layout, Menu, Button, theme } from 'antd';
 import {Outlet, useNavigate} from "react-router-dom";
 
+
 const { Header, Sider, Content } = Layout;
 
 const App = () => {
